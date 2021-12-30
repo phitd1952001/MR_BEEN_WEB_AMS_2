@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #007700;
+    --background-color: #f0f3f7;
+    --grey: #666666;
+    --white: #ffffff;
+}
+
+
+/* start nav bar */
+
+.nav {
+    justify-content: center;
+    align-items: center;
+    position: fixed !important;
+    margin-top: -1rem;
+}
+
+.logo-nav {
+    margin: -1rem auto;
+    font-size: 3.5rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.border-item-nav {
+    border: .125rem solid var(--white);
+    margin-left: 1rem;
+    border-radius: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+    transition: .5 ease-in-out;
+}
+
+.border-item-nav:hover {
+    background-color: var(--white);
+    box-shadow: rgba(255, 255, 255, 0.8) 2px 2px 2px 2px, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8);
+    color: var(--primary-color)!important;
+}
+
+
+/* end nav bar */
+
+body {
+    background: url(../img/Link-Water-solid-color-background.jpg);
+}
+
+
+/* start product */
+
+.product-list {
+    padding-top: 4rem;
+}
+
+.product {}
+
+.product:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-name {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.product-category {
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.product-price {
+    color: var(--grey);
+    font-weight: bold;
+}
+
+
+/* end product */
